@@ -1,8 +1,13 @@
 import React from 'react'
+import Header from '../component/Header'
+import SpecialityMenu from '../component/SpecialityMenu'
 
 function Home() {
   return (
-    <div>Home</div>
+    <div>
+      <Header/>
+      <SpecialityMenu/>
+    </div>
   )
 }
 
