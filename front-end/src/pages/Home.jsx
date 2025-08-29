@@ -2,6 +2,7 @@ import React from 'react'
 import Header from '../component/Header'
 import SpecialityMenu from '../component/SpecialityMenu'
 import TopDoctor from '../component/TopDoctor'
+import Banner from '../component/Banner'
 
 function Home() {
   return (
@@ -9,6 +10,7 @@ function Home() {
       <Header/>
       <SpecialityMenu/>
       <TopDoctor/>
+      <Banner/>
     </div>
   )
 }
